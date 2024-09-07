@@ -1,0 +1,6 @@
+UID        PID  PPID  C STIME TTY          TIME CMD
+root         1     0  0 18:42 ?        00:00:00 /init
+root        13     1  0 18:42 ?        00:00:00 /init
+root        14    13  0 18:42 ?        00:00:00 /init
+anthueg+    15    14  0 18:42 pts/0    00:00:00 -bash
+anthueg+   543    15  0 20:36 pts/0    00:00:00 ps -fea
