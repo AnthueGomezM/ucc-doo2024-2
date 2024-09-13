@@ -1,6 +1,6 @@
 /*==============================================================*/
 /* DBMS name:      PostgreSQL 9.x                               */
-/* Created on:     13/09/2024 3:35:34 p. m.                     */
+/* Created on:     13/09/2024 4:39:26 p. m.                     */
 /*==============================================================*/
 
 
@@ -49,12 +49,16 @@ create table NUMEROS_APOSTADOS (
 /*==============================================================*/
 create table USUARIOS (
    USUARIO_ID           NUMERIC              not null,
-   APUESTA_ID           NUMERIC              null,
    NOMBRE               VARCHAR(20)          null,
    CORREO               VARCHAR(20)          null,
    FECHA_REGISTRO       DATE                 null,
    constraint PK_USUARIOS primary key (USUARIO_ID)
 );
+
+alter table APUESTAS
+   add constraint FK_APUESTAS_RF_USUARIOS foreign key (USUARIO_ID)
+      references USUARIOS (USUARIO_ID)
+      on delete restrict on update restrict;
 
 alter table NUMEROS_APOSTADOS
    add constraint FK_NUMEROS__RF_LOTERIAS foreign key (LOTERIA_ID)
@@ -63,11 +67,6 @@ alter table NUMEROS_APOSTADOS
 
 alter table NUMEROS_APOSTADOS
    add constraint FK_NUMEROS__RF_APUESTAS foreign key (APUESTA_ID)
-      references APUESTAS (APUESTA_ID)
-      on delete restrict on update restrict;
-
-alter table USUARIOS
-   add constraint FK_USUARIOS_RF_APUESTAS foreign key (APUESTA_ID)
       references APUESTAS (APUESTA_ID)
       on delete restrict on update restrict;
 
