@@ -4,7 +4,8 @@
 
 <Workspace>
 	<Local Expanded="Yes">
-		<Model Expanded="Yes" ID="{BED063F7-3E3D-4360-B18A-70FB5367D30A}" Name="basico-02" Type="{FF4B6538-9856-42CF-B9B9-304ED370CEAA}" URL="basico-02.prj"/>
+		<Model Expanded="Yes" ID="{BED063F7-3E3D-4360-B18A-70FB5367D30A}" Loaded="No" Name="basico-02" Type="{FF4B6538-9856-42CF-B9B9-304ED370CEAA}" URL="basico-02.prj"/>
+		<Model Expanded="Yes" ID="{4884F54C-E1FC-43CF-A108-A1351CF76F9F}" Name="apuestas" Type="{FF4B6538-9856-42CF-B9B9-304ED370CEAA}" URL="../../20240913-apuestas/apuestas/apuestas.prj"/>
 	</Local>
 	<BrowserModule Name="Repository"/>
 </Workspace>

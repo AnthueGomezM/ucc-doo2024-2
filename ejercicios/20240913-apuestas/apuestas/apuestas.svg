@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no" ?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN" "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg width="190mm" xmlns="http://www.w3.org/2000/svg" height="144mm" version="1.1" viewBox="0 0 718 545" xmlns:xlink="http://www.w3.org/1999/xlink">
+   <path d="M377,395 L377,492 A8,8 0 0,1 369,500 L247,500" fill="none" stroke="#800040" stroke-width="1"/>
+   <polygon fill="#800040" points="247,500 261,497 261,503" stroke="#800040" stroke-width="1" stroke-linejoin="miter"/>
+   <text x="377" y="503" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="middle">FK_APUESTA_REFERENCE_USUARIO</text>
+   <path d="M393,395 L393,474 A8,8 0 0,0 401,482 L531,482" fill="none" stroke="#800040" stroke-width="1"/>
+   <polygon fill="#800040" points="531,482 518,485 518,479" stroke="#800040" stroke-width="1" stroke-linejoin="miter"/>
+   <text x="393" y="485" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="middle">FK_APUESTA_REFERENCE_UBICACIO</text>
+   <path d="M103,88 L103,332 A8,8 0 0,0 111,340 L284,340" fill="none" stroke="#800040" stroke-width="1"/>
+   <polygon fill="#800040" points="284,340 271,343 271,337" stroke="#800040" stroke-width="1" stroke-linejoin="miter"/>
+   <text x="103" y="342" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="middle">FK_NUMEROS_REFERENCE_APUESTA</text>
+   <path d="M457,103 L609,103 A8,8 0 0,1 617,111 L617,151" fill="none" stroke="#800040" stroke-width="1"/>
+   <polygon fill="#800040" points="617,151 614,137 620,137" stroke="#800040" stroke-width="1" stroke-linejoin="miter"/>
+   <text x="616" y="98" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="middle">FK_LOTERIAS_REFERENCE_LOTERIA</text>
+   <polyline fill="none" points="377,140 377,284" stroke="#800040" stroke-width="1"/>
+   <polygon fill="#800040" points="377,284 374,270 380,270" stroke="#800040" stroke-width="1" stroke-linejoin="miter"/>
+   <text x="376" y="214" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="middle">FK_LOTERIAS_REFERENCE_APUESTA</text>
+   <rect x="89" y="457" fill="#ffffff" width="0" height="0" stroke="none" stroke-width="0"/>
+   <defs>
+      <linearGradient id="Gradient1" x1="0%" x2="100%" y1="0%" y2="100%" gradientUnits="objectBoundingBox">
+         <stop offset="5%" stop-color="#ffffff"/>
+         <stop offset="95%" stop-color="#d28902"/>
+      </linearGradient>
+   </defs>
+   <rect x="89" y="457" fill="url(#Gradient1)" width="158" height="86" stroke="#804000" stroke-width="1"/>
+   <text x="168" y="468" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="middle">usuario</text>
+   <line x1="89" x2="247" y1="474" y2="474" stroke="#804000" stroke-width="1"/>
+   <text x="94" y="484" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start" text-decoration="underline">id</text>
+   <text x="94" y="497" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start">nombre</text>
+   <text x="94" y="510" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start">apellidos</text>
+   <text x="94" y="523" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start">email</text>
+   <text x="94" y="536" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start">estado</text>
+   <text x="145" y="484" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start" text-decoration="underline">VARCHAR(10)</text>
+   <text x="145" y="497" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start">VARCHAR(30)</text>
+   <text x="145" y="510" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start">VARCHAR(30)</text>
+   <text x="145" y="523" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start">VARCHAR(50)</text>
+   <text x="145" y="536" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start">BOOL</text>
+   <text x="220" y="484" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start" text-decoration="underline">&lt;pk&gt;</text>
+   <rect x="531" y="446" fill="#ffffff" width="0" height="0" stroke="none" stroke-width="0"/>
+   <defs>
+      <linearGradient id="Gradient2" x1="0%" x2="100%" y1="0%" y2="100%" gradientUnits="objectBoundingBox">
+         <stop offset="5%" stop-color="#ffffff"/>
+         <stop offset="95%" stop-color="#d28902"/>
+      </linearGradient>
+   </defs>
+   <rect x="531" y="446" fill="url(#Gradient2)" width="164" height="73" stroke="#804000" stroke-width="1"/>
+   <text x="613" y="457" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="middle">ubicacion</text>
+   <line x1="531" x2="695" y1="463" y2="463" stroke="#804000" stroke-width="1"/>
+   <text x="536" y="473" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start" text-decoration="underline">id</text>
+   <text x="536" y="486" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start">nombre</text>
+   <text x="536" y="499" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start">direccion</text>
+   <text x="536" y="512" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start">estado</text>
+   <text x="587" y="473" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start" text-decoration="underline">VARCHAR(10)</text>
+   <text x="587" y="486" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start">VARCHAR(30)</text>
+   <text x="587" y="499" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start">VARCHAR(100)</text>
+   <text x="587" y="512" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start">BOOL</text>
+   <text x="668" y="473" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start" text-decoration="underline">&lt;pk&gt;</text>
+   <rect x="286" y="67" fill="#ffffff" width="0" height="0" stroke="none" stroke-width="0"/>
+   <defs>
+      <linearGradient id="Gradient3" x1="0%" x2="100%" y1="0%" y2="100%" gradientUnits="objectBoundingBox">
+         <stop offset="5%" stop-color="#ffffff"/>
+         <stop offset="95%" stop-color="#d28902"/>
+      </linearGradient>
+   </defs>
+   <rect x="286" y="67" fill="url(#Gradient3)" width="171" height="73" stroke="#804000" stroke-width="1"/>
+   <text x="371" y="78" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="middle">loterias</text>
+   <line x1="286" x2="457" y1="84" y2="84" stroke="#804000" stroke-width="1"/>
+   <text x="290" y="94" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start" text-decoration="underline">id</text>
+   <text x="290" y="107" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start">apuesta_id</text>
+   <text x="290" y="120" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start">loteria_id</text>
+   <text x="290" y="133" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start">fecha_hora</text>
+   <text x="351" y="94" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start" text-decoration="underline">NUMERIC</text>
+   <text x="351" y="107" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start">NUMERIC</text>
+   <text x="351" y="120" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start">VARCHAR(20)</text>
+   <text x="351" y="133" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start">TIMESTAMP</text>
+   <text x="426" y="94" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start" text-decoration="underline">&lt;pk&gt;</text>
+   <text x="426" y="107" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start">&lt;fk2&gt;</text>
+   <text x="426" y="120" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start">&lt;fk1&gt;</text>
+   <rect x="10" y="2" fill="#ffffff" width="0" height="0" stroke="none" stroke-width="0"/>
+   <defs>
+      <linearGradient id="Gradient4" x1="0%" x2="100%" y1="0%" y2="100%" gradientUnits="objectBoundingBox">
+         <stop offset="5%" stop-color="#ffffff"/>
+         <stop offset="95%" stop-color="#d28902"/>
+      </linearGradient>
+   </defs>
+   <rect x="10" y="2" fill="url(#Gradient4)" width="187" height="86" stroke="#804000" stroke-width="1"/>
+   <text x="103" y="13" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="middle">numeros</text>
+   <line x1="10" x2="197" y1="19" y2="19" stroke="#804000" stroke-width="1"/>
+   <text x="14" y="29" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start" text-decoration="underline">id</text>
+   <text x="14" y="42" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start">apuesta_id</text>
+   <text x="14" y="55" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start">numero</text>
+   <text x="14" y="68" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start">valor_apuesta</text>
+   <text x="14" y="81" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start">fecha_hora</text>
+   <text x="88" y="29" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start" text-decoration="underline">NUMERIC(10)</text>
+   <text x="88" y="42" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start">NUMERIC(10)</text>
+   <text x="88" y="55" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start">NUMERIC(4)</text>
+   <text x="88" y="68" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start">DECIMAL(15,2)</text>
+   <text x="88" y="81" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start">TIMESTAMP</text>
+   <text x="169" y="29" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start" text-decoration="underline">&lt;pk&gt;</text>
+   <text x="169" y="42" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start">&lt;fk&gt;</text>
+   <rect x="284" y="284" fill="#ffffff" width="0" height="0" stroke="none" stroke-width="0"/>
+   <defs>
+      <linearGradient id="Gradient5" x1="0%" x2="100%" y1="0%" y2="100%" gradientUnits="objectBoundingBox">
+         <stop offset="5%" stop-color="#ffffff"/>
+         <stop offset="95%" stop-color="#d28902"/>
+      </linearGradient>
+   </defs>
+   <rect x="284" y="284" fill="url(#Gradient5)" width="186" height="111" stroke="#804000" stroke-width="1"/>
+   <text x="377" y="295" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="middle">apuesta</text>
+   <line x1="284" x2="470" y1="301" y2="301" stroke="#804000" stroke-width="1"/>
+   <text x="289" y="311" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start" text-decoration="underline">id</text>
+   <text x="289" y="324" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start">usuario_id</text>
+   <text x="289" y="337" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start">ubcacioni_id</text>
+   <text x="289" y="350" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start">fecha</text>
+   <text x="289" y="363" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start">hora</text>
+   <text x="289" y="376" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start">total</text>
+   <text x="289" y="389" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start">estado</text>
+   <text x="358" y="311" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start" text-decoration="underline">NUMERIC</text>
+   <text x="358" y="324" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start">VARCHAR(10)</text>
+   <text x="358" y="337" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start">VARCHAR(10)</text>
+   <text x="358" y="350" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start">DATE</text>
+   <text x="358" y="363" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start">TIME</text>
+   <text x="358" y="376" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start">DECIMAL(15,2)</text>
+   <text x="358" y="389" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start">BOOL</text>
+   <text x="439" y="311" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start" text-decoration="underline">&lt;pk&gt;</text>
+   <text x="439" y="324" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start">&lt;fk1&gt;</text>
+   <text x="439" y="337" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start">&lt;fk2&gt;</text>
+   <rect x="532" y="151" fill="#ffffff" width="0" height="0" stroke="none" stroke-width="0"/>
+   <defs>
+      <linearGradient id="Gradient6" x1="0%" x2="100%" y1="0%" y2="100%" gradientUnits="objectBoundingBox">
+         <stop offset="5%" stop-color="#ffffff"/>
+         <stop offset="95%" stop-color="#d28902"/>
+      </linearGradient>
+   </defs>
+   <rect x="532" y="151" fill="url(#Gradient6)" width="169" height="72" stroke="#804000" stroke-width="1"/>
+   <text x="616" y="162" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="middle">loteria</text>
+   <line x1="532" x2="701" y1="168" y2="168" stroke="#804000" stroke-width="1"/>
+   <text x="537" y="178" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start" text-decoration="underline">id</text>
+   <text x="537" y="190" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start">nombre</text>
+   <text x="537" y="203" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start">hora_juego</text>
+   <text x="537" y="216" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start">estado</text>
+   <text x="599" y="178" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start" text-decoration="underline">VARCHAR(20)</text>
+   <text x="599" y="190" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start">VARCHAR(30)</text>
+   <text x="599" y="203" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start">TIME</text>
+   <text x="599" y="216" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start">VARCHAR(30)</text>
+   <text x="674" y="178" fill="#000000" font-size="10" font-family="'Arial Unicode MS','Arial'" text-anchor="start" text-decoration="underline">&lt;pk&gt;</text>
+</svg>
