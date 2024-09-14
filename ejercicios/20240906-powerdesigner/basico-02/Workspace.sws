@@ -4,8 +4,7 @@
 
 <Workspace>
 	<Local Expanded="Yes">
-		<Model ID="{7B293788-D180-405A-BCD3-D957D1E7CDF0}" Name="basico-01" Type="{FF4B6538-9856-42CF-B9B9-304ED370CEAA}" URL="../basico-01/basico-01.prj"/>
-		<Model ID="{BED063F7-3E3D-4360-B18A-70FB5367D30A}" Name="basico-02" Selected="Yes" Type="{FF4B6538-9856-42CF-B9B9-304ED370CEAA}" URL="basico-02.prj"/>
+		<Model Expanded="Yes" ID="{BED063F7-3E3D-4360-B18A-70FB5367D30A}" Name="basico-02" Type="{FF4B6538-9856-42CF-B9B9-304ED370CEAA}" URL="basico-02.prj"/>
 	</Local>
 	<BrowserModule Name="Repository"/>
 </Workspace>
