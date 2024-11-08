@@ -7,7 +7,10 @@
 		<Model Expanded="Yes" ID="{BC43DA24-8EEA-48E0-B918-FC82BC43A408}" Loaded="No" Name="Sistema-Pasajes" Type="{FF4B6538-9856-42CF-B9B9-304ED370CEAA}" URL="Sistema-Pasajes.prj"/>
 		<Model ID="{4884F54C-E1FC-43CF-A108-A1351CF76F9F}" Loaded="No" Name="apuestas" Type="{FF4B6538-9856-42CF-B9B9-304ED370CEAA}" URL="../../../20240913-apuestas/apuestas/apuestas.prj"/>
 		<Model Expanded="Yes" ID="{90627FDE-DD53-43BF-BE0B-5A97942F3878}" Loaded="No" Name="gestion-hospital" Type="{FF4B6538-9856-42CF-B9B9-304ED370CEAA}" URL="../../../20241101-talleres/Gestion-hospitalPD/gestion-hospital/gestion-hospital.prj"/>
-		<Model Expanded="Yes" ID="{65A9D9EE-1A72-47E1-9E39-91CF06863E4D}" Name="Alquiler-vehiculo" Type="{FF4B6538-9856-42CF-B9B9-304ED370CEAA}" URL="../../../20241101-talleres/Alquiler-vehiculoPD/Alquiler-vehiculo/Alquiler-vehiculo.prj"/>
+		<Model Expanded="Yes" ID="{65A9D9EE-1A72-47E1-9E39-91CF06863E4D}" Loaded="No" Name="Alquiler-vehiculo" Type="{FF4B6538-9856-42CF-B9B9-304ED370CEAA}" URL="../../../20241101-talleres/Alquiler-vehiculoPD/Alquiler-vehiculo/Alquiler-vehiculo.prj"/>
+		<Model Expanded="Yes" ID="{B2583896-9A36-4046-AF2E-B04FE50A0010}" Loaded="No" Name="sistemaEcommerce" Type="{FF4B6538-9856-42CF-B9B9-304ED370CEAA}" URL="../../../Taller M3 – 02Sistemas-Basicos/Sistema-de-E-commerce/Sistema-de-E-commercePD/Project_1/Project_1.prj"/>
+		<Model Expanded="Yes" ID="{75C1CA02-46E8-4C4E-B87E-3FA6C4AFC904}" Loaded="No" Name="gestion-Hoteles" Type="{FF4B6538-9856-42CF-B9B9-304ED370CEAA}" URL="../../../Taller M3 – 02Sistemas-Basicos/Sistema-de-Reservas-de-Hoteles/Sistema-de-Reservas-de-HotelesPD/gestion-Hoteles/gestion-Hoteles.prj"/>
+		<Model Expanded="Yes" ID="{24A331C3-0D45-4B64-B375-618BD23E9CED}" Name="Sistema-MontañaRusa" Type="{FF4B6538-9856-42CF-B9B9-304ED370CEAA}" URL="../../../Taller M3 – 02Sistemas-Basicos/Sistema-de-Gestión-de-Montaña-Rusa/Sistema-de-Gestión-de-Montaña-RusaPD/Sistema-MontañaRusa/Sistema-MontañaRusa.prj"/>
 	</Local>
 	<BrowserModule Name="Repository"/>
 </Workspace>
